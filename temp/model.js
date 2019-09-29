@@ -95,7 +95,7 @@ for(k = 0;k<countryNames.length;k++) {
   countryScore = countryScore + freedom*(156-getArrayForIndex(7)[k]);
   countryScore = countryScore + corruption*(getArrayForIndex(8)[k]);
   countryScore = countryScore + generosity*(156-getArrayForIndex(9)[k]);
-  countryScore = countryScore + life_expectancy*(156-getArrayForIndex(11)[k]);
+  countryScore = countryScore + life_expectancy*(156-getArrayForIndex(11)[k])*2 +2;
 
   countryScores.push(countryScore);
   
