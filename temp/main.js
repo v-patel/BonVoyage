@@ -1,5 +1,5 @@
-const Papa = require("papaparse");
-const fs = require('fs');
+const Papa = requirejs("papaparse");
+const fs = requirejs('fs');
 
 function insertionSort(array) {
   for(var i = 0; i < array.length; i++) {
@@ -99,7 +99,7 @@ for(k = 0;k<countryNames.length;k++) {
   countryScore = countryScore + life_expectancy*(156-getArrayForIndex(11)[k])*2 +2;
 
   countryScores.push(countryScore);
-  
+
 }
 
 console.log(countryScores);

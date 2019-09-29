@@ -15,6 +15,7 @@
     "doasync": "^2.0.1",
     "node-fetch": "^2.6.0",
     "node-fetch-polyfill": "^2.0.6",
-    "papaparse": "^5.1.0"
+    "papaparse": "^5.1.0",
+    "requirejs": "^2.3.6"
   }
 }
