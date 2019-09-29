@@ -23,11 +23,12 @@ function getArrayForIndex(index) {
   return tempArr;
 }
 
-let social_support = 10;
-let freedom = 10;
-let corruption = 1;
-let generosity = 10;
-let life_expectancy = 10;
+function hitSubmit(q1, q2, q3, q4, q5) {
+let social_support = q1;
+let freedom = q2;
+let corruption = q3;
+let generosity = q4;
+let life_expectancy = q5*2 +2;
 
 let region = 3;
 let globe_regions = ["ASIA (EX. NEAR EAST)", "EASTERN EUROPE", "NORTHERN AFRICA", "LATIN AMER. & CARIB", "C.W. OF IND. STATES","OCEANIA","WESTERN EUROPE","NEAR EAST","NORTHERN AFRICA","BALTICS","SUB-SAHARAN AFRICA"];
@@ -111,3 +112,4 @@ for(k = 0;k<countryNames.length;k++) {
   }
 }
 console.log(countryNames[ind]);
+}
